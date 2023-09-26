@@ -10,7 +10,9 @@ const Dictionary = ({dictData, audio}) =>{
         // audioRef.current.canPlay = (event)=>{
         //     audio.play();
         // }
-        audio.play();
+        audio.canPlayThrough = (event)=>{
+            audio.play();
+        }
         
     }
     return (

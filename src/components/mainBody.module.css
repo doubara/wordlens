@@ -15,7 +15,8 @@
     padding: .8rem 1rem;
     border-radius: 5px;
     color: black;
-    text-align: center;
+    text-align: left;
+    direction: ltr;
 
 }
 .form button{
